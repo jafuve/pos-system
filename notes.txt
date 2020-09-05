@@ -1,0 +1,6 @@
+** 1 FIX TCPDF ERROR 
+PHP Warning: "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /code/ebos/vendor/doctrine/orm/lib/Doctrine/ORM/UnitOfWork.php on line 2718.
+
+solution
+
+You have three way to solve this problem. I am already face the same problem I solved them with this way : 1- I open the php file where is the problem line, I changed the term [continue;] to [break;]
